@@ -23,6 +23,8 @@ namespace Calculs
             choix = "1";
             while (choix != "0")
             {
+                val1 = rand.Next(1, 10);
+                val2 = rand.Next(1, 10);
                 // affiche le menu et saisi le choix
                 Console.WriteLine("Addition ....................... 1");
                 Console.WriteLine("Multiplication ................. 2");
@@ -33,8 +35,6 @@ namespace Calculs
                 switch (choix)
                 {
                     case "1": // addition
-                        val1 = rand.Next(1, 10);
-                        val2 = rand.Next(1, 10);
                         // saisie de la réponse
                         correct = false;
                         while (!correct)
@@ -62,8 +62,6 @@ namespace Calculs
                         }
                         break;
                     case "2": // multiplication
-                        val1 = rand.Next(1, 10);
-                        val2 = rand.Next(1, 10);
                         // saisie de la réponse
                         correct = false;
                         while (!correct)
