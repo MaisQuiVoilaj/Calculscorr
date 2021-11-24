@@ -35,7 +35,6 @@ namespace Calculs
                 switch (choix)
                 {
                     case "1": // addition
-                        // saisie de la réponse
                         correct = false;
                         while (!correct)
                         {
@@ -61,7 +60,7 @@ namespace Calculs
                             Console.WriteLine("Faux : " + val1 + " + " + val2 + " = " + solution);
                         }
                         break;
-                    case "2": // multiplication
+                    case "2":
                         // saisie de la réponse
                         correct = false;
                         while (!correct)
